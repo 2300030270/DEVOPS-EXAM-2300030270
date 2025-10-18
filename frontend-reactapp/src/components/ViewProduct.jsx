@@ -5,7 +5,7 @@ import './style.css'
 
 
 const BASE_URL = import.meta.env.VITE_API_URL;
-const API_URL = `${BASE_URL}/productapi`;
+const API_URL = `${BASE_URL}`;
 
 function ViewProduct() {
   const { id } = useParams();
